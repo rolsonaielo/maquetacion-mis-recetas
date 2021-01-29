@@ -1,0 +1,22 @@
+*{box-sizing: border-box;
+}
+.padre{background-color: deeppink;
+    width: 1200px;
+margin: 0 auto;
+}
+
+.contenedor{
+    display: flex;
+    background-color: darkorange;
+    width: 30%;
+    align-items: stretch;
+    justify-content: left;
+}
+.cabecera{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: crimson;
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content:center;
+}
