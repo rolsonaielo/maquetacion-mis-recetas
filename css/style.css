@@ -1,22 +1,28 @@
 *{box-sizing: border-box;
 }
-.padre{background-color: deeppink;
+.container{
+    background-color: deeppink;
     width: 1200px;
-margin: 0 auto;
+    margin: 0 auto;
+    padding: 0 1em;
+    display:flex;
+    flex-wrap: wrap;
+  
+
 }
 
-.contenedor{
-    display: flex;
-    background-color: darkorange;
-    width: 30%;
-    align-items: stretch;
-    justify-content: left;
+section{
+    background-color: lawngreen;
+    width: 900px;
+    height: 300px;
 }
-.cabecera{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: crimson;
-    width: 100px;
-    height: auto;
-    display: flex;
-    justify-content:center;
+
+    
+aside{
+    background-color: mediumblue;
+    width: 300px;
+   height: 300px;
+   flex-shrink: 0;
+ 
+
 }
