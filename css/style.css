@@ -2,53 +2,62 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    background-color: rgb(255, 94, 20);
+   /* background-color: rgb(255, 94, 20);*/
     width: 1200px;
     margin: 0 auto;
     padding: 0 1em;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+}
+.logotipo{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+    
 nav{
-    background-color: darkkhaki;
+    /*background-color: rgb(129, 235, 194);*/
     display: flex;
     justify-content: center;
 }
-
+a:hover{
+    color:red;
+}
 section{
-    background-color: lawngreen;
+    /*background-color: lawngreen;*/
     width: 900px;
     height: 900px;
    display: flex;
-   /*flex-wrap: wrap;*/
+   flex-wrap: wrap;
    justify-content: center;
-   align-items: flex-start;
-   
    }
 
-
+h2{
+    /*background-color: rgb(237, 217, 247);*/
+    justify-content: center;
+    display: flex;
+}
 
 .hijo img {
    border :1px solid black;
-   width: 200px;
-   height: 150px;
+   width: 400px;
+   height: auto;
    background-color: cadetblue;
-
 }
-   
+h2:hover{
+       color:#FF7F50;
+       
+   }
     
 aside{
-    background-color: mediumblue;
+   /* background-color: mediumblue;*/
     width: 200px;
    height:300px;
    flex-shrink: 0;
- justify-content: flex-end;
+   justify-content: flex-end;
  
 
 }
 
-footer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
