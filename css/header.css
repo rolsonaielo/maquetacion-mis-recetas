@@ -1,0 +1,12 @@
+
+#header{
+    text-align: center;
+   padding-top: 1 em;
+background-color: chartreuse;
+
+}
+
+#header img {
+    width: 150px;
+    height: auto;
+}
