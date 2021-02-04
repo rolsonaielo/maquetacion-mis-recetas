@@ -1,14 +1,16 @@
 *{
     box-sizing: border-box;
-     background-color: violet;
-    text-decoration: none;
-    padding:0 ;
-    margin: 0 ;
-    font-size: 1em;
-    font-weight: normal;
+     background-color: rgb(250, 241, 250);
+     font-family: sans-serif;
+     
 }
-a{
-    text-decoration: none;
+  a{ 
+text-decoration: none;
+    color: inherit;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
 
