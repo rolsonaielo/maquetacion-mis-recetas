@@ -1,14 +1,17 @@
 *{
     box-sizing: border-box;
-     background-color: rgb(250, 241, 250);
+    /* background-color: rgb(250, 241, 250);*/
      font-family: sans-serif;
      
 }
   a{ 
 text-decoration: none;
-    color: inherit;
+    color: blue;
 }
 
+/*a:hover{
+    color:mediumorchid;
+}*/
 .img{
     max-width: 100%;
     height: auto;
