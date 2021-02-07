@@ -7,6 +7,11 @@
     background-color: #ededed;
 }
 
+.txt-color {
+    color: red;
+} 
+
+
 /* corners */
 .rounded {
     border-radius: 10px;

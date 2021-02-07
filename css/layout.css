@@ -3,7 +3,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1em;
-    background-color: blanchedalmond;
+   /* background-color: blanchedalmond;*/
 
 }
 .block-center-row{
@@ -11,7 +11,12 @@
     justify-content: center;
     flex-direction: row;
 }
-
+.row-full{
+  width: 100vw;
+  left: 50%;
+  margin-right: -50%;
+  margin-left: -50%;
+}
 
 /* margenes y padding */
 
@@ -33,4 +38,11 @@
 
 .pad-1 {
     padding: 1em;
+}
+
+.pad-2 {
+    padding: 2em;
+}
+.separator-block{
+    padding-right: 2em;
 }
