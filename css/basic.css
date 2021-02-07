@@ -16,4 +16,6 @@ text-decoration: none;
     max-width: 100%;
     height: auto;
 }
-
+.centrar {
+    text-align: center;
+}
